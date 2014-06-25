@@ -6,7 +6,7 @@ SED=$(which sed);
 # config optimizer for neo4j
 #
 
-NEO4J_WRAPPER_PROP_FILE="${OPENSHIFT_NEO4J_DIR}/versions/1.9/neo4j-1.9/conf/neo4j-wrapper.conf";
+NEO4J_WRAPPER_PROP_FILE="${OPENSHIFT_NEO4J_DIR}/versions/2.1/neo4j-2.1/conf/neo4j-wrapper.conf";
 
  [ -z "$XMS" ] && { XMS=32; }
  memory_total=`free -m | grep Mem | awk '{print $2}'`;
